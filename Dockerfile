@@ -3,4 +3,4 @@ From tomcat
 
 # Maintainer 
  
-COPY ./webapp.war /usr/local/tomcat/webapps
+COPY ./webapp/target/webapp.war /usr/local/tomcat/webapps
